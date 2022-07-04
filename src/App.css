@@ -28,6 +28,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.ap_fon{
+  background-color:#00006f ;
+  width: 100%;
+  height: 800px;
+}
+
+.orbit{
+    margin: 0px auto;
+    top: 267px;
+    width: 65em;
+    height: 49em;
+    border: 2px solid white;
+    border-radius: 50%;
+  
+}
+
+.mini_orbit{
+  margin: 80px auto;
+  top: 267px;
+  width: 45em;
+  height: 38em;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.grid_a{
+  display: grid;
+  
 }
