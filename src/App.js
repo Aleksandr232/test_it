@@ -1,6 +1,9 @@
+import React from 'react';
+import Block from './components/bloks/block';
+import BlockRight from './components/bloks/blockright';
 
 import './App.css';
-import Block from './components/bloks/block';
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
       <div className='orbit'>
           <div className='mini_orbit'>
           <Block/>
+          <BlockRight/>
           </div>
       </div>
     </div>
