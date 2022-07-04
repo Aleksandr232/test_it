@@ -66,6 +66,36 @@
 }
 
 .grid_a{
+  position: absolute;
+  top: 53px;
+  left: 550px;
   display: grid;
+  grid-template-columns: repeat(3, 166px);
+
+}
+
+.a_text{
+  position: absolute;
+  top: 53px;
+  left: 90px;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  content: '';
+  transition: all 0.2;
+  transform: translateX(10px);
+  color:#61dafb
+}
+
+.a_text:hover{
+  content: '';
+  transition: all 0.2;
+  transform: translateX(10px);
   
 }

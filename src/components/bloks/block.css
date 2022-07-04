@@ -1,0 +1,20 @@
+.block{
+    position: absolute;
+    width: 650px;
+    height: 100px;
+    background: white;
+    top: 276px;
+    left: -51px;
+    border-radius: 10px;
+    -webkit-transform: skew(-40deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+    
+}
+
+.block_title{
+    position: relative;
+    top:20px ;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,17 +1,21 @@
 
 import './App.css';
+import Block from './components/bloks/block';
 
 function App() {
   return (
     <div className='ap_fon'>
-      <div className='grid_a'>
-        <a href="">БИЛЕТЫ И АБОНЕМЕНТЫ</a>
-        <a href="">Как купить?</a>
-        <a href="">Правила</a>
-        <a href="">Возврат билетов</a>
-      </div>
+        <a className='a_text' href="">БИЛЕТЫ И АБОНЕМЕНТЫ</a>
+        <div className='grid_a'>
+          <a href="">Как купить?</a>
+          <a href="">Правила</a>
+          <a href="">Возврат билетов</a>
+        </div>
+     
       <div className='orbit'>
-          <div className='mini_orbit'></div>
+          <div className='mini_orbit'>
+          <Block/>
+          </div>
       </div>
     </div>
   );
